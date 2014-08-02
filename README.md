@@ -22,3 +22,9 @@ Running tests:
 ```bash
 $ mix test
 ```
+
+Running dialyzer:
+
+```bash
+$ mix dialyze
+```
