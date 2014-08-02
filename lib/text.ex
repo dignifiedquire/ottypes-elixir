@@ -19,7 +19,7 @@ defmodule Text do
 
   def apply_op(ins, {text, pos}) when is_binary(ins) do
     {head, tail} = String.split_at(text, pos)
-    {head <> ins <> tail, pos}
+    {head <> ins <> tail, pos + String.length(ins)}
   end
 
   def apply_op(mov, {text, pos}) when is_integer(mov) do
