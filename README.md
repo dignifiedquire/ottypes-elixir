@@ -1,6 +1,8 @@
 # Ottypes
 
-Implementation of ottypes in Elixir.
+[![Build Status](https://travis-ci.org/Dignifiedquire/ottypes-elixir.svg)](https://travis-ci.org/Dignifiedquire/ottypes-elixir)
+
+> An implementation of different ottypes in Elixir.
 
 
 Available types:
