@@ -1,1 +1,3 @@
-%{"dialyze": {:package, "0.1.2"}}
+%{"dialyze": {:package, "0.1.2"},
+  "excheck": {:git, "git://github.com/parroty/excheck.git", "6d73055b7373eaeaa5a6bcaa6fc4501818ad98f0", []},
+  "triq": {:git, "git://github.com/krestenkrab/triq.git", "0c1a00d81d0cf58ffac0a4a73c3c70862b378e4e", []}}

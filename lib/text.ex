@@ -32,4 +32,8 @@ defmodule Text do
     {head <> removed, pos}
   end
 
+  def apply_op(op, {text, pos}) do
+    raise ArgumentError, message: :io.format("invalid op: ~p", [op])
+  end
+
 end
